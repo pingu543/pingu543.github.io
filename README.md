@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+# pingu543.github.io React + TypeScript + Vite
+
+This is my personal website.
+
+The following is the template readme from Vite.
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
