@@ -1,5 +1,10 @@
 .hero {
+  --hero-width: clamp(85px, 15vw, 170px);
+
   position: relative;
+  width: var(--hero-width);
+  aspect-ratio: 170 / 179;
+  flex: 0 0 auto;
 
   .base,
   .framework,
@@ -9,7 +14,9 @@
   }
 
   .base {
-    width: 170px;
+    display: block;
+    width: 100%;
+    height: auto;
     position: relative;
     z-index: 0;
   }
@@ -21,16 +28,16 @@
 
   .framework {
     z-index: 1;
-    top: 34px;
-    height: 28px;
+    top: 18.99%;
+    height: 15.64%;
     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
       scale(1.4);
   }
 
   .vite {
     z-index: 0;
-    top: 107px;
-    height: 26px;
+    top: 59.78%;
+    height: 14.53%;
     width: auto;
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
       scale(0.8);
