@@ -94,7 +94,7 @@
   }
 }
 
-#next-steps {
+#resources {
   display: flex;
   border-top: 1px solid var(--border);
   text-align: left;
@@ -128,7 +128,7 @@
   }
 }
 
-#next-steps ul {
+#resources ul {
   list-style: none;
   padding: 0;
   display: flex;
