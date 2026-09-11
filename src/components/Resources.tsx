@@ -8,8 +8,8 @@ function Resources() {
         <svg className="icon" role="presentation" aria-hidden="true">
           <use href="/icons.svg#documentation-icon"></use>
         </svg>
-        <h2>Vite & React documentation</h2>
-        <p>The official documentation for Vite and React</p>
+        <h2>Vite & React Documentation</h2>
+        <p>This website is made with Vite and React</p>
         <ul>
           <li>
             <a href="https://vite.dev/" target="_blank">
@@ -29,8 +29,8 @@ function Resources() {
         <svg className="icon" role="presentation" aria-hidden="true">
           <use href="/icons.svg#social-icon"></use>
         </svg>
-        <h2>Connect with me</h2>
-        <p>My social media</p>
+        <h2>Connect with Me</h2>
+        <p>Links to my socials</p>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/ping-chang-ueng/" target="_blank">
